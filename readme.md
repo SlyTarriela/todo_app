@@ -2,12 +2,22 @@
 
 ## how to setup environment
 
+- create venv
 ```
 python -m venv flask_mongodb
 ```
 
-## how to activate environment
-
+- activate environment
 ```
 flask_mongodb\Scripts\Activate.ps1
+```
+
+- install dependencies
+```
+pip install -r requirements.txt
+```
+
+- run the code
+```
+python run.py
 ```
