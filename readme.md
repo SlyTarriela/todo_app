@@ -3,11 +3,11 @@
 ## how to setup environment
 
 ```
-python -m venv <name_of_folder>
+python -m venv flask_mongodb
 ```
 
 ## how to activate environment
 
 ```
-<name_of_folder>\Scripts\Activate.ps1
+flask_mongodb\Scripts\Activate.ps1
 ```
