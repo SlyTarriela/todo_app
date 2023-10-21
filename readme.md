@@ -17,6 +17,14 @@ flask_mongodb\Scripts\Activate.ps1
 pip install -r requirements.txt
 ```
 
+- create .env file
+```
+MONGODB_USERNAME = <your-username>
+MONGODB_PASSWORD = <your-password>
+
+SECRET_KEY = <your-secret-key-here>
+```
+
 - run the code
 ```
 python run.py
